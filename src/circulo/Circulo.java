@@ -1,15 +1,18 @@
 package circulo;
-import static java.lang.Math.PI;
 import java.util.Scanner;
 
 public class Circulo 
 {
+    final static double PI=3.1416;
+    long color;
+    
+    
     public static void calcularArea(double r)
     {
         double area=(PI*r*r);
         System.out.println("El valor del área del círuclo es " + area);
     }
-
+    
     public static void main(String[] args)
     {
      
