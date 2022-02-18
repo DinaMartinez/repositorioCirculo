@@ -13,6 +13,12 @@ public class Circulo
         System.out.println("El valor del área del círuclo es " + area);
     }
     
+    public static void calcularDiametro(double r)
+    {
+        double diametro=2*r;
+        System.out.println("El valor del diámetro del círuclo es " + diametro);
+    }
+
     public static void main(String[] args)
     {
      
