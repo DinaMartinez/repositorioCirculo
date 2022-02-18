@@ -1,8 +1,14 @@
 package circulo;
+import static java.lang.Math.PI;
 import java.util.Scanner;
 
 public class Circulo 
 {
+    public static void calcularArea(double r)
+    {
+        double area=(PI*r*r);
+        System.out.println("El valor del área del círuclo es " + area);
+    }
 
     public static void main(String[] args)
     {
